@@ -1,0 +1,899 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merienda:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+.main {
+  background: url(/Image/back1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.main-title h2 {
+  font-family: "Merienda", cursive;
+  font-size: 100px;
+  color: crimson;
+}
+
+.about-main {
+  background: url(/Image/about_us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.fatherhood-main {
+  background: url(/Image/back1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.fath-main-title {
+  text-align: center;
+}
+.fath-main-title h3 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 1px 10px black;
+  color: crimson;
+}
+.fath-main-title h4 {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 1px 5px black;
+  color: brown;
+}
+.fath-main-title button {
+  display: block;
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+}
+.fath-main-title button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+.fath-main-title a:hover {
+  text-decoration: none;
+}
+.fath-main-title p {
+  margin: 10px;
+  padding: 10px;
+}
+
+.main-bible {
+  background: url(/Image/Bible.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.bible-title h2 {
+  font-size: 80px;
+  font-weight: bold;
+  color: crimson;
+  padding: 8px;
+  text-shadow: #00eeff 1px 0 10px;
+}
+.bible-title p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #420410;
+  padding: 15px;
+  text-shadow: #f3efe0 1px 0 10px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 20px;
+}
+.card-body li {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+.card-body a {
+  font-size: 20px;
+  color: crimson;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-body a:hover {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.new-title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: #0099ff 1px 0 10px;
+  color: crimson;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main-new {
+  background: white;
+  box-shadow: 5px 5px 2px 2px #cc8282;
+}
+
+.main-verse {
+  margin: 30px;
+  padding: 20px;
+}
+.main-verse h2 {
+  font-size: 50px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+  color: brown;
+  text-shadow: 1px 2px 3px black;
+}
+.main-verse h5 {
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+  color: brown;
+  text-shadow: 1px 1px 2px black;
+}
+.main-verse p {
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+  color: brown;
+}
+
+.books-main {
+  background: url(/Image/class.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+.books-main h4 {
+  font-size: 40px;
+  color: crimson;
+  text-shadow: 10px 2px 30px #00e1ff;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+}
+.books-main button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.books-main button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.library-main {
+  background: url(/Image/library.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+.library-main h4 {
+  font-size: 100px;
+  color: crimson;
+  text-shadow: 10px 2px 30px #00e1ff;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+}
+.library-main button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.library-main button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.contact-main {
+  background: url(/Image/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.lesson-main {
+  background: url(/Image/Lesson.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+.lesson-main h4 {
+  font-size: 100px;
+  color: crimson;
+  text-shadow: 10px 2px 30px #00e1ff;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+}
+.lesson-main button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.lesson-main button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.prayer-main {
+  background: url(/Image/prayer1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+  background-attachment: fixed;
+}
+.prayer-main h4 {
+  font-size: 100px;
+  color: crimson;
+  text-shadow: 10px 2px 30px #00e1ff;
+  font-weight: bold;
+  padding: 20px;
+  margin: 10px;
+}
+
+.footer {
+  background: #1f1e1e;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo1 {
+  text-align: center;
+}
+
+.fot-add ul {
+  list-style: none;
+}
+.fot-add li {
+  margin: 3px;
+  padding: 3px;
+}
+.fot-add a {
+  font-size: 16px;
+  font-weight: 3px bold;
+  font-family: "Merienda", cursive;
+  color: brown;
+}
+.fot-add a:hover {
+  color: #d31111;
+  text-decoration: none;
+}
+
+.fot-add2 ul {
+  list-style: none;
+}
+.fot-add2 li {
+  margin-right: 10px;
+  font-size: 14px;
+  color: brown;
+}
+.fot-add2 i {
+  font-size: 16px;
+  color: brown;
+  margin-right: 10px;
+}
+.fot-add2 a {
+  color: brown;
+}
+.fot-add2 a:hover {
+  text-decoration: none;
+  color: crimson;
+}
+
+.fot-awe {
+  margin: 20px;
+  padding: 10px;
+}
+.fot-awe i {
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid white;
+  border-radius: 100%;
+  font-size: 25px;
+  opacity: 30%;
+  color: brown;
+  transition-duration: 1000ms;
+}
+.fot-awe i:hover {
+  transform: rotate(1turn);
+  opacity: 100%;
+}
+
+.cont-bib {
+  background: url(/Image/Bible.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.cont-pray {
+  background: url(/Image/pray12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.cont-book {
+  background: url(/Image/bok.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.cont-cot {
+  background: url(/Image/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.cont-abo {
+  background: url(/Image/about_us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  text-align: center;
+}
+
+.ind-c {
+  text-align: center;
+}
+.ind-c h3 {
+  font-size: 80px;
+  font-family: "Merienda", cursive;
+  text-shadow: 1px 0px 10px black;
+  color: brown;
+  padding: 20px;
+}
+.ind-c button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-c button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-a {
+  text-align: center;
+}
+.ind-a h3 {
+  font-size: 80px;
+  font-family: "Merienda", cursive;
+  text-shadow: 1px 0px 10px #00aeff;
+  color: red;
+}
+.ind-a button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-a button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-bib {
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.ind-bib h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 20px;
+}
+.ind-bib h4 {
+  font-size: 40px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 30px;
+}
+.ind-bib button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-bib button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-pr {
+  margin: 20px 0;
+  padding: 50px 0;
+}
+.ind-pr h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 20px;
+}
+.ind-pr button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-pr button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-bok1 {
+  margin: 10px;
+  padding: 10px;
+}
+.ind-bok1 h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px #7e7c7c;
+  padding: 10px;
+  margin: 20px;
+}
+.ind-bok1 button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-bok1 button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.bi-mu {
+  text-align: center;
+}
+.bi-mu h3 {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: #d6d2d2 1px 0 10px;
+  color: #460303;
+  font-weight: bold;
+  padding: 20px;
+}
+.bi-mu button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.bi-mu button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.mu-bi {
+  text-align: center;
+}
+.mu-bi button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.mu-bi button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.bi-ti {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 33px 0;
+}
+
+.bible-menu-group {
+  margin: 5px;
+  padding: 10px;
+}
+.bible-menu-group button {
+  margin: 5px 20px;
+}
+
+.bible-menu-title {
+  border-bottom: 2px solid #b3b1b1;
+  border-right: 2px solid #b3b1b1;
+  box-shadow: 10px 5px 10px 5px #f8dcdc;
+  border-radius: 10px;
+  text-align: center;
+}
+.bible-menu-title h3 {
+  font-size: 23px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 5px 5px 5px burlywood;
+  border-bottom: 1px solid #bbbaba;
+}
+
+.btn-g {
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #04ce70;
+  border-radius: 5px;
+  width: 75px;
+  color: #04ce70;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-g:hover {
+  color: white;
+  background: #04ce70;
+  text-decoration: none;
+}
+
+.btn-g2 {
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ec5f5f;
+  border-radius: 5px;
+  width: 50px;
+  color: #ec5f5f;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-g2:hover {
+  color: white;
+  background: #ec5f5f;
+  text-decoration: none;
+}
+
+.bible-menu1 {
+  padding: 8px;
+}
+.bible-menu1 h4 {
+  margin: 10px;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 1px 1px 2px #080808;
+}
+.bible-menu1 ul {
+  list-style: none;
+  margin-left: 20px;
+  border-style: outset;
+}
+.bible-menu1 li {
+  text-align: justify;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 180px;
+  font-size: 16px;
+}
+.bible-menu1 a {
+  color: darkred;
+  font-weight: bold;
+}
+.bible-menu1 a:hover {
+  color: crimson;
+  text-decoration: none;
+  transform: scale(1, 1) translate(10%, 10%);
+}
+
+.bible-menu2 {
+  padding: 10px;
+}
+.bible-menu2 h4 {
+  margin: 10px;
+  margin-top: 3px;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 1px 1px 2px #080808;
+}
+.bible-menu2 ul {
+  list-style: none;
+  margin-left: 10px;
+  border-style: outset;
+}
+.bible-menu2 li {
+  text-align: justify;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 235px;
+  font-size: 16px;
+}
+.bible-menu2 a {
+  color: darkred;
+  font-weight: bold;
+}
+.bible-menu2 a:hover {
+  color: crimson;
+  text-decoration: none;
+  transform: scale(1, 1) translate(10%, 10%);
+}
+
+.BB {
+  position: fixed;
+  margin-top: 200px;
+}
+
+.BF {
+  position: fixed;
+  margin-top: 200px;
+}
+
+.p-cont {
+  margin: 25px;
+}
+.p-cont p {
+  text-align: justify;
+}
+.p-cont h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-cont h6 {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content-verse {
+  margin-top: 20px;
+}
+
+.verse h3 {
+  font-size: 12px;
+  display: inline-flex;
+  padding: 20px 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+}
+
+.ver-con img {
+  width: 140px;
+  height: 180px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.libr h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  color: brown;
+  border-bottom: 1px solid brown;
+}
+.libr h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  color: brown;
+  border-bottom: 1px solid brown;
+}
+.libr h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.libr a {
+  color: black;
+}
+.libr a:hover {
+  color: brown;
+  font-weight: bold;
+}
+.libr li {
+  margin: 5px;
+  padding: 5px;
+}
+
+.boklink {
+  padding: 5px;
+  margin-top: 50px;
+}
+.boklink img {
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+  border: 1px solid #35030d;
+  border-radius: 15px;
+}
+.boklink img:hover {
+  border: 2px solid crimson;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+.fath-body {
+  margin-top: 20px;
+}
+.fath-body h2 {
+  color: crimson;
+  display: inline-table;
+  font-size: 30px;
+}
+.fath-body h4 {
+  padding: 10px;
+  font-size: 25px;
+  color: crimson;
+  text-shadow: 1px 0 4px black;
+  font-weight: bold;
+}
+.fath-body h5 {
+  padding: 10px;
+  font-size: 18px;
+  color: brown;
+  text-shadow: 2px 2px 19px black;
+  font-weight: bold;
+}
+.fath-body p {
+  padding: 10px;
+  text-align: justify;
+}
+
+.happy-body {
+  margin-top: 50px;
+}
+.happy-body h2 {
+  color: crimson;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+.happy-body h3 {
+  color: crimson;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+.happy-body h4 {
+  padding: 10px;
+  font-size: 18px;
+  color: crimson;
+  font-weight: bold;
+}
+.happy-body h5 {
+  padding: 10px;
+  font-size: 16px;
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+}
+.happy-body p {
+  padding: 10px;
+  text-align: justify;
+}
+
+.coll-text a {
+  font-size: 18px;
+}
+
+.nav-links {
+  color: crimson;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: #83071f;
+}
+
+.logo {
+  font-family: "Merienda", cursive;
+  color: crimson;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  font-family: "Merienda", cursive;
+  color: crimson;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}

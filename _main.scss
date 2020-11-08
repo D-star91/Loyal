@@ -1,0 +1,272 @@
+.main{
+    background: url(/Image/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+
+}
+.main-title{
+    h2{
+        font-family: 'Merienda', cursive;
+        font-size: 100px;
+        color: crimson;
+    }
+}
+.about-main{
+    background: url(/Image/about_us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+}
+.fatherhood-main{
+    background: url(/Image/back1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+.fath-main-title{
+    text-align: center;
+    h3{
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: 2px 1px 10px black;
+        color: crimson;
+    }
+    h4{
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 2px 1px 5px black;
+        color: brown;
+    }
+    button{
+        display: block;
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+        
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    p{
+        margin: 10px;
+        padding: 10px;
+    }
+}
+// Bible
+.main-bible{
+    background: url(/Image/Bible.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    text-align: center;
+    background-attachment: fixed;
+}
+.bible-title{
+    h2{
+        font-size: 80px;
+        font-weight: bold;
+        color: crimson;
+        padding: 8px;
+        text-shadow: rgb(0, 238, 255) 1px 0 10px;
+    }
+    p{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(66, 4, 16);
+        padding: 15px;
+        text-shadow: rgb(243, 239, 224) 1px 0 10px;
+    }
+}
+.card-body{
+    ul{
+        list-style: none;
+        padding: 20px;
+    }
+    li{
+        display: inline-block;
+        padding: 10px;
+        margin: 5px;
+    }
+    a{
+        font-size: 20px;
+        color: crimson;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover{
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+.new-title{
+    
+    h3{
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: rgb(0, 153, 255) 1px 0 10px;
+        color: crimson;
+        margin: 10px;
+        padding: 5px;
+    }
+}
+.main-new{
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 2px 2px  rgb(204, 130, 130);
+}
+
+.main-verse{
+    margin: 30px;
+    padding: 20px;
+    h2{
+        font-size: 50px;
+        padding: 5px;
+        margin: 10px;
+        font-weight: bold;
+        color: brown;
+        text-shadow: 1px 2px 3px black;
+    }
+    h5{
+        font-size: 20px;
+        padding: 5px;
+        margin: 10px;
+        font-weight: bold;
+        color: brown;
+        text-shadow: 1px 1px 2px black;
+    }
+    p{
+        font-size: 16px;
+        padding: 5px;
+        margin: 10px;
+        font-weight: bold;
+        color: brown;
+    }
+}
+.books-main{
+    background: url(/Image/class.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;
+    h4{
+        font-size: 40px;
+        color: crimson;
+        text-shadow: 10px 2px 30px rgb(0, 225, 255);
+        font-weight: bold;
+        padding: 20px;
+        margin: 10px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.library-main{
+    background: url(/Image/library.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;
+    h4{
+        font-size: 100px;
+        color: crimson;
+        text-shadow: 10px 2px 30px rgb(0, 225, 255);
+        font-weight: bold;
+        padding: 20px;
+        margin: 10px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.contact-main{
+    background: url(/Image/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+}
+.lesson-main{
+    background: url(/Image/Lesson.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;
+    h4{
+        font-size: 100px;
+        color: crimson;
+        text-shadow: 10px 2px 30px rgb(0, 225, 255);
+        font-weight: bold;
+        padding: 20px;
+        margin: 10px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.prayer-main{
+    background: url(/Image/prayer1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    text-align: center;
+    background-attachment: fixed;
+    h4{
+        font-size: 100px;
+        color: crimson;
+        text-shadow: 10px 2px 30px rgb(0, 225, 255);
+        font-weight: bold;
+        padding: 20px;
+        margin: 10px;
+    }
+}

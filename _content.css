@@ -1,0 +1,409 @@
+.cont-bib {
+  background: url(/Image/Bible.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.cont-pray {
+  background: url(/Image/pray12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.cont-book {
+  background: url(/Image/bok.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.cont-cot {
+  background: url(/Image/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 0;
+  text-align: center;
+}
+
+.cont-abo {
+  background: url(/Image/about_us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.ind-c {
+  text-align: center;
+}
+.ind-c h3 {
+  font-size: 80px;
+  font-family: "Merienda", cursive;
+  text-shadow: 1px 0px 10px black;
+  color: brown;
+  padding: 20px;
+}
+.ind-c button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-c button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-a {
+  text-align: center;
+}
+.ind-a h3 {
+  font-size: 80px;
+  font-family: "Merienda", cursive;
+  text-shadow: 1px 0px 10px #00aeff;
+  color: red;
+}
+.ind-a button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-a button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-bib {
+  margin: 20px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+.ind-bib h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 20px;
+}
+.ind-bib h4 {
+  font-size: 40px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 30px;
+}
+.ind-bib button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-bib button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-pr {
+  margin: 20px 0;
+  padding: 50px 0;
+}
+.ind-pr h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 20px;
+}
+.ind-pr button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-pr button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-bok {
+  margin: 20px;
+  padding: 10px;
+  text-align: right;
+}
+.ind-bok h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 20px;
+}
+.ind-bok p {
+  font-size: 16px;
+}
+.ind-bok button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-bok button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.ind-bok1 {
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.ind-bok1 h3 {
+  font-size: 50px;
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 0px 10px black;
+  padding: 20px;
+}
+.ind-bok1 button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.ind-bok1 button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.bi-mu {
+  text-align: center;
+}
+.bi-mu h3 {
+  font-size: 50px;
+  text-align: center;
+  text-shadow: #d6d2d2 1px 0 10px;
+  color: #460303;
+  font-weight: bold;
+  padding: 20px;
+}
+.bi-mu button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.bi-mu button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.mu-bi {
+  text-align: center;
+}
+.mu-bi button {
+  border: 1px solid brown;
+  border-radius: 3px;
+  color: brown;
+  width: 150px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.mu-bi button:hover {
+  transform: scale(1, 1);
+  background: brown;
+  color: cornsilk;
+}
+
+.bi-ti {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 120px 0;
+}
+
+.bible-menu1 {
+  padding: 10px;
+}
+.bible-menu1 h4 {
+  margin: 10px;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 1px 1px 2px #080808;
+}
+.bible-menu1 ul {
+  list-style: none;
+  margin-left: 20px;
+  border-style: outset;
+}
+.bible-menu1 li {
+  text-align: justify;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 180px;
+  font-size: 16px;
+}
+.bible-menu1 a {
+  color: darkred;
+  font-weight: bold;
+}
+.bible-menu1 a:hover {
+  color: crimson;
+  text-decoration: none;
+  transform: scale(1, 1) translate(10%, 10%);
+}
+
+.bible-menu2 {
+  padding: 10px;
+}
+.bible-menu2 h4 {
+  margin: 10px;
+  margin-top: 3px;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  color: crimson;
+  text-shadow: 1px 1px 2px #080808;
+}
+.bible-menu2 ul {
+  list-style: none;
+  margin-left: 10px;
+  border-style: outset;
+}
+.bible-menu2 li {
+  text-align: justify;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  width: 235px;
+  font-size: 16px;
+}
+.bible-menu2 a {
+  color: darkred;
+  font-weight: bold;
+}
+.bible-menu2 a:hover {
+  color: crimson;
+  text-decoration: none;
+  transform: scale(1, 1) translate(10%, 10%);
+}
+
+.p-cont {
+  margin: 25px;
+}
+.p-cont h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-cont h6 {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content-verse {
+  margin-top: 20px;
+}
+
+.verse h3 {
+  font-size: 12px;
+  display: inline-flex;
+  padding: 20px 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 80px;
+}
+
+.ver-con img {
+  width: 140px;
+  height: 180px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.libr {
+  margin: 10px;
+  padding: 5px;
+  border-right: 1px dashed black;
+}
+.libr h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  color: brown;
+  border-bottom: 1px solid brown;
+}
+.libr h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+}
+.libr a {
+  color: black;
+}
+.libr a:hover {
+  color: brown;
+  font-weight: bold;
+}
+.libr li {
+  margin: 5px;
+  padding: 5px;
+}
+
+.boklink {
+  padding: 10px;
+  margin: 5px;
+  margin-top: 20px;
+}
+.boklink img {
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+  border: 1px solid #35030d;
+  border-radius: 15px;
+}
+.boklink img:hover {
+  border: 2px solid crimson;
+  border-radius: 15px;
+  padding: 3px;
+}

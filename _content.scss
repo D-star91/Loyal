@@ -1,0 +1,512 @@
+.content{
+
+}
+.cont-bib{
+    background: url(/Image/Bible.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+}
+.cont-pray{
+    background: url(/Image/pray12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+}
+.cont-book{
+    background: url(/Image/bok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+}
+.cont-cot{
+    background: url(/Image/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+}
+.cont-abo{
+    background: url(/Image/about_us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+    text-align: center;
+}
+.ind-c{
+    text-align: center;
+    h3{
+        font-size: 80px;
+        font-family: 'Merienda', cursive;
+        text-shadow: 1px 0px 10px black;
+        color: brown;
+        padding: 20px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.ind-a{
+    text-align: center;
+    h3{
+        font-size: 80px;
+        font-family: 'Merienda', cursive;
+        text-shadow: 1px 0px 10px rgb(0, 174, 255);
+        color: rgb(255, 0, 0);
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.ind-bib{
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+    h3{
+        font-size: 50px;
+        color: brown;
+        font-weight: bold;
+        text-shadow: 1px 0px 10px black;
+        padding: 20px;
+    }
+    h4{
+        font-size: 40px;
+        color: brown;
+        font-weight: bold;
+        text-shadow: 1px 0px 10px black;
+        padding: 30px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.ind-pr{
+    margin: 20px 0;
+    padding: 50px 0;
+    h3{
+        font-size: 50px;
+        color: brown;
+        font-weight: bold;
+        text-shadow: 1px 0px 10px black;
+        padding: 20px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.ind-bok1{
+    margin: 10px;
+    padding: 10px;
+    h3{
+        font-size: 50px;
+        color: brown;
+        font-weight: bold;
+        text-shadow: 1px 0px 10px rgb(126, 124, 124);
+        padding: 10px;
+        margin: 20px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.bi-mu{
+    text-align: center;
+    h3{
+        font-size: 50px;
+        text-align: center;
+        text-shadow: rgb(214, 210, 210) 1px 0 10px;
+        color: rgb(70, 3, 3);
+        font-weight: bold;
+        padding: 20px;
+    }
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.mu-bi{
+    text-align: center;
+    button{
+        border: 1px solid brown;
+        border-radius: 3px;
+        color: brown;
+        width: 150px;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button:hover{
+        transform: scale(1,1);
+        background: brown;
+        color: cornsilk;
+    }
+}
+.bi-ti{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 33px 0;
+    
+}
+// Bible
+.bible-menu-group{
+    margin: 5px;
+    padding: 10px;
+    button{
+        margin: 5px 20px;
+    }
+}
+.bible-menu-title{
+    border-bottom: 2px solid rgb(179, 177, 177);
+    border-right: 2px solid rgb(179, 177, 177);
+    box-shadow: 10px 5px 10px 5px rgb(248, 220, 220);
+    border-radius: 10px;
+    text-align: center;
+    h3{
+        font-size: 23px;
+        font-weight: bold;
+        color: green;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        text-shadow: 5px 5px 5px burlywood;
+        border-bottom: 1px solid rgb(187, 186, 186);
+    }
+}
+.btn-g{
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(4, 206, 112);
+    border-radius: 5px;
+    width: 75px;
+    color:  rgb(4, 206, 112);
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-g:hover{
+    color: white;
+    background:  rgb(4, 206, 112);
+    text-decoration: none;
+}
+.btn-g2{
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(236, 95, 95);
+    border-radius: 5px;
+    width: 50px;
+    color: rgb(236, 95, 95);
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-g2:hover{
+    color: white;
+    background:rgb(236, 95, 95);
+    text-decoration: none;
+}
+.bible-menu1{
+    padding: 8px;
+    h4{
+        margin: 10px;
+        padding: 15px;
+        font-size: 50px;
+        font-weight: bold;
+        color: crimson;
+        text-shadow: 1px 1px 2px rgb(8, 8, 8);
+    }
+    ul{
+        list-style: none;
+        margin-left: 20px;
+        border-style: outset;
+        
+    }
+    li{
+        text-align: justify;
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+        width:180px;
+        font-size: 16px;
+    }
+    a{
+        color: darkred;
+        font-weight: bold;
+    }
+    a:hover{
+        color: crimson;
+        text-decoration: none;
+        transform: scale(1,1) translate(10%,10%);
+    }
+}
+.bible-menu2{
+    padding: 10px;
+    h4{
+        margin: 10px;
+        margin-top: 3px;
+        padding: 15px;
+        font-size: 50px;
+        font-weight: bold;
+        color: crimson;
+        text-shadow: 1px 1px 2px rgb(8, 8, 8);
+    }
+    ul{
+        list-style: none;
+        margin-left: 10px;
+        border-style: outset;
+        
+    }
+    li{
+        text-align: justify;
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+        width:235px;
+        font-size: 16px;
+    }
+    a{
+        color: darkred;
+        font-weight: bold;
+    }
+    a:hover{
+        color: crimson;
+        text-decoration: none;
+        transform: scale(1,1) translate(10%,10%);
+    }
+}
+.BB{
+    position: fixed;
+    margin-top: 200px;
+}
+.BF{
+    position: fixed;
+    margin-top: 200px;
+}
+.p-cont{
+    margin: 25px;
+    p{
+        text-align: justify;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h6{
+        display: inline;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+.content-verse{
+    margin-top: 20px;
+}
+.verse{
+    
+    h3{
+        font-size: 12px;
+        display: inline-flex;
+        padding: 20px 5px;
+        margin: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 100px;
+        height: 80px;
+        
+    }
+}
+.ver-con{
+    img{
+        width: 140px;
+        height: 180px;
+        margin: 20px;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+}
+// Book
+.libr{
+    h3{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5px;
+        padding: 5px;
+        color: brown;
+        border-bottom: 1px solid brown;
+        }
+    h4{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px;
+        padding: 5px;
+        color: brown;
+        border-bottom: 1px solid brown;
+    }
+    h5{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 5px;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    a{
+        color: black;
+    }
+    a:hover{
+        color: brown;
+        font-weight: bold;
+    }
+    
+    li{
+        margin: 5px;
+        padding: 5px;
+
+    }
+}
+.boklink{
+    padding: 5px;
+    margin-top: 50px;
+    img{
+        width: 150px;
+        height: 200px;
+        margin: 5px;
+        border: 1px solid rgb(53, 3, 13);
+        border-radius: 15px;
+    }
+    img:hover{
+        border: 2px solid crimson;
+        border-radius: 15px;
+        padding: 3px;
+    }
+}
+.fath-title{
+}
+
+.fath-body{
+    margin-top: 20px;
+    h2{
+        color: crimson;
+        display: inline-table;
+        font-size: 30px;
+    }
+    h4{
+        padding: 10px;
+        font-size: 25px;
+        color: crimson;
+        text-shadow: 1px 0 4px  black;
+        font-weight: bold;
+    }
+    h5{
+        padding: 10px;
+        font-size: 18px;
+        color: brown;
+        text-shadow: 2px 2px 19px black;
+        font-weight: bold;
+    }
+    p{
+        padding: 10px;
+        text-align: justify;
+    }
+}
+.happy-body{
+    margin-top: 50px;
+    h2{
+        color: crimson;
+        font-size: 35px;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 1px 1px 4px black;
+    }
+    h3{
+        color: crimson;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        padding: 15px;
+    }
+    h4{
+        padding: 10px;
+        font-size: 18px;
+        color: crimson;
+        font-weight: bold;
+    }
+    h5{
+        padding: 10px;
+        font-size: 16px;
+        color: brown;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        padding: 10px;
+        text-align: justify;
+    }
+}
+.coll-text{
+    a{
+        font-size: 18px;
+    }
+}
+// 

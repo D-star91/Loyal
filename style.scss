@@ -1,0 +1,31 @@
+@use 'main'; @use 'footer'; @use 'content';
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.nav-links{
+    color: crimson;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;    
+}
+.nav-links:hover{
+    text-decoration: none;
+    color: rgb(131, 7, 31);
+}
+.logo{
+    font-family: 'Merienda', cursive;
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+.logo:hover{
+    font-family: 'Merienda', cursive;
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
